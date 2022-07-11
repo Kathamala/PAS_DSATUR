@@ -14,7 +14,10 @@ public class Dsatur {
 	
 	public static ArrayList<Integer> graphColoring(ArrayList<ArrayList<Integer>> matrix) 
 	{
-		if(matrix.size() == 0) return new ArrayList<Integer>(Arrays.asList());
+		if(matrix.size() == 0) { 
+			System.out.println("Nenhuma coloração para um grafo nulo.");
+			return new ArrayList<Integer>(Arrays.asList());
+		};
 		
 		// setup
 		setup();
@@ -44,8 +47,21 @@ public class Dsatur {
 			vertexColors.set(v, minColor);
 		}
 		
-		System.out.println("Colors: " + vertexColors);
 		return vertexColors;
+	}
+	
+	public static int getChromaticNumber(ArrayList<Integer> results) {
+		ArrayList<Integer> colorsFound = new ArrayList<Integer>();
+		int numbersFound = 0;
+		
+		for (Integer i : results) {
+			if(!colorsFound.contains(i)) {
+				colorsFound.add(i);
+				numbersFound++;
+			}
+		}
+		
+		return numbersFound;
 	}
 	
 	private static void setup() {
