@@ -15,7 +15,7 @@ public class Dsatur {
 	public static ArrayList<Integer> graphColoring(ArrayList<ArrayList<Integer>> matrix) 
 	{
 		if(matrix.size() == 0) { 
-			System.out.println("Nenhuma coloração para um grafo nulo.");
+			System.out.println("Nenhuma coloracao para um grafo nulo.");
 			return new ArrayList<Integer>(Arrays.asList());
 		};
 		
@@ -24,25 +24,25 @@ public class Dsatur {
 		m = matrix;
 		m.stream().forEach((i) -> {degreeArray.add(0); vertexColors.add(0); vertexSaturations.add(0);});
 
-		// Passo 1: Ordene os vértices do grafo em ordem decrescente de graus; 
+		// Passo 1: Ordene os vertices do grafo em ordem decrescente de graus; 
 		updateDegrees();
 		updateVertexOrderedByDegree();
 		
-		// Passo 2: Atribua ao vértice de maior grau a cor 1; 
+		// Passo 2: Atribua ao vertice de maior grau a cor 1; 
 		vertexColors.set(vertexOrderedByDegree.get(0), 1);
 
-		// Passo 5: Se todos os vértices estiverem coloridos, pare. Caso contrário, retorne à 
+		// Passo 5: Se todos os vertices estiverem coloridos, pare. Caso contrario, retorne a
 		// etapa 3.
 		
 		while(vertexNotColored()) { 
 			updateVertexSaturations();
 			
-			// Passo 3: Selecione o vértice não colorido com maior grau de saturação. 
-			// Se houver vértices com mesmo grau de saturação, opte por qualquer um de grau 
-			// máximo pertencente ao sub-grafo ainda não colorido; 
+			// Passo 3: Selecione o vertice nao colorido com maior grau de saturacao. 
+			// Se houver vertices com mesmo grau de saturacao, opte por qualquer um de grau 
+			// maximo pertencente ao sub-grafo ainda nao colorido; 
 			int v = getNonColoredVertexWithHighestSatur();
 			
-			// Passo 4: Atribua ao vértice selecionado a cor de menor índice disponível; 
+			// Passo 4: Atribua ao vertice selecionado a cor de menor indice disponivel; 
 			int minColor = getMinimumAvailableColor(v);
 			vertexColors.set(v, minColor);
 		}

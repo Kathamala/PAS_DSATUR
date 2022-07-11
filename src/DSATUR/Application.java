@@ -14,7 +14,7 @@ public class Application {
 		
 		//Interface:
 		while(option != 0) {
-			System.out.println("Informe o caso de teste que você deseja executar (0 para sair): ");
+			System.out.println("Informe o caso de teste que voce deseja executar (0 para sair): ");
 			option = sc.nextInt();
 			
 			if(option == 2) {
