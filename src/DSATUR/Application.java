@@ -88,15 +88,213 @@ public class Application {
 				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0, 0, 0)));
 				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 0, 0)));
 			}
+			else if(option == 11) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 1, 1, 1, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 0, 1, 0, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 0, 0, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 0, 1, 1, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 0, 0, 1, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 1, 0, 1, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 0, 1, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 0, 1, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 0, 0, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0, 1, 0, 1, 1, 0, 0)));
+			}
+			else if(option == 12) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 0, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 0, 1, 0, 0, 1, 0, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 1, 1, 1, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1, 0, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1)));
+				
+				matrix = convertMatrix(matrix);
+			}
+			else if(option == 13) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 1, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 1, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 0, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 1, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 1, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 1, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 1, 1, 0, 0, 0)));
+				
+				matrix = convertMatrix(matrix);
+			}
+			else if(option == 14) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0)));
+				
+				matrix = convertMatrix(matrix);
+			}
+			else if(option == 15) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 1, 1, 1, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 1, 1, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 0, 0, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 0, 0, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 0, 1, 1, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 0, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 1, 1, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 1, 1, 0, 0, 0)));
+
+				matrix = convertMatrix(matrix);
+			}
+			else if(option == 16) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 1, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 1, 0, 0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 1, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 1, 1, 0, 1, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 1, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 0, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 0, 1, 1, 0, 1, 0, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0, 1, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0)));
+
+				matrix = convertMatrix(matrix);
+			}
+			else if(option == 17) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 1, 1, 1, 0, 1, 1, 0, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 1, 0, 1, 1, 0, 1, 1, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1)));
+				
+				matrix = convertMatrix(matrix);
+			}
+			else if(option == 18) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 1, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 1, 0, 1)));
+
+				matrix = convertMatrix(matrix);
+			}
+			else if(option == 19) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 0, 0, 0, 0, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0, 0, 0, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0, 0, 0, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 1, 0, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 1, 1, 1, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 0, 0, 0, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 1, 0, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 0, 0, 1, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 0, 1, 0, 1, 0, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 0, 0, 0, 0, 1, 0, 0)));
+
+				matrix = convertMatrix(matrix);
+			}
+			else if(option == 20) {
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 0, 1, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 1, 0, 1, 1, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 0, 1, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 1, 1, 0, 1, 0, 1, 1, 0, 0, 0, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 1, 1, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 0, 1, 1, 1, 1, 0, 1, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 1, 0, 1, 1, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 1, 0, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 0, 0, 1, 1, 1, 0, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 1, 1, 0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 0, 1, 1, 0, 1, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 0, 0, 0, 1, 1, 1, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 1, 0, 0, 1, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 0, 1, 0, 1, 0, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0, 0, 1, 1, 0, 1, 0, 0, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 0, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 1, 0, 1, 0, 1)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(0, 1, 0, 0, 0, 0, 1, 1, 0, 0, 0, 1, 1, 1, 1, 0, 0, 1, 1, 1, 1, 0, 1, 0, 0)));
+				matrix.add(new ArrayList<Integer>(Arrays.asList(1, 1, 0, 1, 1, 1, 0, 0, 1, 1, 0, 1, 1, 1, 0, 1, 0, 0, 0, 0, 1, 0, 1, 1, 0)));
+				
+				matrix = convertMatrix(matrix);
+			}
 			
-			if(option > 0 && option < 11) {
+			if(option > 0 && option < 21) {
+				long tempoInicial = System.currentTimeMillis();
 				ArrayList<Integer> result = Dsatur.graphColoring(matrix);
-				System.out.println(FileManager.writeToFile(option, matrix, result));
+				long tempo = System.currentTimeMillis() - tempoInicial;
+				System.out.println(FileManager.writeToFile(option, matrix, result, tempo));
 				matrix.clear();
 			}
 		}
 		
 		sc.close();
+	}
+	
+	public static ArrayList<ArrayList<Integer>> convertMatrix(ArrayList<ArrayList<Integer>> matrix) {
+		for(int i=0; i<matrix.size(); i++) {
+			for(int j=0; j<matrix.size(); j++) {
+				matrix.get(i).set(j, matrix.get(j).get(i));
+				
+				if(i == j) matrix.get(i).set(j, 0);
+			}
+		}
+		
+		return matrix;
 	}
 }
 

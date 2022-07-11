@@ -7,9 +7,11 @@ import java.util.ArrayList;
 
 public class FileManager {
 	
-	public static String writeToFile(int testCase, ArrayList<ArrayList<Integer>> matrix, ArrayList<Integer> colors) throws IOException {
+	public static String writeToFile(int testCase, ArrayList<ArrayList<Integer>> matrix, ArrayList<Integer> colors, long time) throws IOException {
 		String outputPath = "src\\result\\testCase" + testCase + "result.txt";
 	    String str = "=============================TEST CASE " + testCase +"====================================\n\n";
+	    
+	    str += "Test Time: " + time + "ms \n\n"; 
 	    
 	    str += "Input Matrix:\n\n" + matrixFormat(matrix) + "\n\n"; 
 	    
