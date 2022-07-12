@@ -32,7 +32,7 @@ public class FileManager {
 	    return str;
 	}
 	
-	public static int getAmmountOfEdges(ArrayList<ArrayList<Integer>> matrix) {
+	private static int getAmmountOfEdges(ArrayList<ArrayList<Integer>> matrix) {
 		int edges = 0;
 		
 		for(int i=0; i<matrix.size(); i++) {
@@ -46,7 +46,7 @@ public class FileManager {
 		return edges;
 	}
 	
-	public static String matrixFormat(ArrayList<ArrayList<Integer>> matrix) {
+	private static String matrixFormat(ArrayList<ArrayList<Integer>> matrix) {
 		String str = "";
 		
 		for(int i=0; i<matrix.size(); i++) {
