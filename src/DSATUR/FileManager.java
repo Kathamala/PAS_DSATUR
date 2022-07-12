@@ -11,7 +11,11 @@ public class FileManager {
 		String outputPath = "src\\result\\testCase" + testCase + "result.txt";
 	    String str = "=============================TEST CASE " + testCase +"====================================\n\n";
 	    
-	    str += "Test Time: " + time + "ms \n\n"; 
+	    str += "Test Time: " + time + "ms \n\n";
+	    
+	    str += "Ammount of Vertexes: " + matrix.size() + "\n\n"; 
+	    
+	    str += "Ammount of Edges: " + getAmmountOfEdges(matrix) + "\n\n"; 
 	    
 	    str += "Input Matrix:\n\n" + matrixFormat(matrix) + "\n\n"; 
 	    
@@ -26,6 +30,20 @@ public class FileManager {
 	    writer.close();
 	    
 	    return str;
+	}
+	
+	public static int getAmmountOfEdges(ArrayList<ArrayList<Integer>> matrix) {
+		int edges = 0;
+		
+		for(int i=0; i<matrix.size(); i++) {
+			for(int j=0; j<matrix.size(); j++) {
+				if(matrix.get(i).get(j) == 1 && i > j) {
+					edges++;
+				}
+			}
+		}
+		
+		return edges;
 	}
 	
 	public static String matrixFormat(ArrayList<ArrayList<Integer>> matrix) {
